@@ -6,10 +6,7 @@
 
 FROM ubuntu:20.04 as system
 
-
-
 RUN sed -i 's#http://archive.ubuntu.com/ubuntu/#mirror://mirrors.ubuntu.com/mirrors.txt#' /etc/apt/sources.list;
-
 
 # built-in packages
 ENV DEBIAN_FRONTEND noninteractive
@@ -25,6 +22,7 @@ RUN apt update \
     && rm -rf /var/lib/apt/lists/*
 # install debs error if combine together
 RUN apt update \
+    && full-upgrade -y \
     && apt install -y --no-install-recommends --allow-unauthenticated \
         xvfb x11vnc \
         vim-tiny firefox ttf-ubuntu-font-family ttf-wqy-zenhei  \

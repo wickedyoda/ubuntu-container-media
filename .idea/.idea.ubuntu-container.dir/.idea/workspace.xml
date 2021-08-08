@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80eae1ae-8f5e-437d-b10b-72bebdee8c2e" name="Changes" comment="c">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="80eae1ae-8f5e-437d-b10b-72bebdee8c2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ubuntu-container.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ubuntu-container.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile.amd64" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.amd64" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,8 @@
       <option name="presentableId" value="Default" />
       <updated>1628390216536</updated>
       <workItem from="1628390220827" duration="1999000" />
-      <workItem from="1628392225762" duration="1817000" />
+      <workItem from="1628392225762" duration="1881000" />
+      <workItem from="1628394971917" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="Updates and first push">
       <created>1628390236615</created>
@@ -102,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628394147766</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sd">
+      <created>1628394350382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628394350382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
     <MESSAGE value="Update1" />
     <MESSAGE value="f" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="sd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sd" />
   </component>
 </project>

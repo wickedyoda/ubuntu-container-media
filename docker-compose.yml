@@ -1,0 +1,21 @@
+version: "3.8"
+
+#volumes: // example
+     #pacheconfig:
+       #name: apacheconfigs-files
+
+
+services:
+     ubuntu-container:
+          container_name: ubuntu-container
+          hostname: ubuntu-container
+          environment:
+               TZ: "America/New_York"
+          image: "tyates2020/ubuntu-container"
+          restart: "always"
+          ports:
+            - 6080:80
+            - 5901:5900
+          volumes:
+            - $HOME/ubuntudata:/root:rw
+            
