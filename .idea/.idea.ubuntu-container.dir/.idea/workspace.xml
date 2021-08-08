@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80eae1ae-8f5e-437d-b10b-72bebdee8c2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ubuntu-container.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ubuntu-container.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.amd64" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.amd64" afterDir="false" />
-    </list>
+    <list default="true" id="80eae1ae-8f5e-437d-b10b-72bebdee8c2e" name="Changes" comment="Updated docker build files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +36,7 @@
       <updated>1628390216536</updated>
       <workItem from="1628390220827" duration="1999000" />
       <workItem from="1628392225762" duration="1881000" />
-      <workItem from="1628394971917" duration="1238000" />
+      <workItem from="1628394971917" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="Updates and first push">
       <created>1628390236615</created>
@@ -112,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628394350382</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated docker build files">
+      <created>1628396502013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628396502013</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +149,7 @@
     <MESSAGE value="f" />
     <MESSAGE value="c" />
     <MESSAGE value="sd" />
-    <option name="LAST_COMMIT_MESSAGE" value="sd" />
+    <MESSAGE value="Updated docker build files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated docker build files" />
   </component>
 </project>
