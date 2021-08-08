@@ -1,0 +1,23 @@
+name: publish
+
+on: [push]
+
+jobs:
+  publish-ubuntu_container-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: tyates2020
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build the ubuntu-container Docker image
+        run: |
+          docker build . --tag ghcr.io/tyates2020/ubuntu-container:latest
+          docker run ghcr.io/tyates2020/ubuntu-container:latest
+          docker push ghcr.io/tyates2020/ubuntu-container:latest
