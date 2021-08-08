@@ -108,13 +108,14 @@ RUN cd /src/web \
     && yarn build
 RUN sed -i 's#app/locale/#novnc/app/locale/#' /src/web/dist/static/novnc/app/ui.js
 
+LABEL org.opencontainers.image.source="https://github.com/tyates2020/ubuntu-container"
 
 
 ################################################################################
 # merge
 ################################################################################
 FROM system
-LABEL maintainer="fcwu.tw@gmail.com"
+LABEL maintainer="traver@traveryates.com"
 
 COPY --from=builder /src/web/dist/ /usr/local/lib/web/frontend/
 COPY rootfs /
