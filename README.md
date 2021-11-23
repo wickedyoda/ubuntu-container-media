@@ -1,4 +1,6 @@
-# docker-ubuntu-vnc-desktop
+# docker-ubuntu-vnc-desktop for converting media files 
+# this project takes origional an builds a docker container which has the basic files and applications for gui based media file converters
+#
 
 origional credit goes to https://github.com/fcwu/docker-ubuntu-vnc-desktop, I am expanding his project for my own personal purposes.
 

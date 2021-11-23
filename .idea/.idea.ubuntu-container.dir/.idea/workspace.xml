@@ -61,6 +61,7 @@
       <workItem from="1637644822107" duration="83000" />
       <workItem from="1637645401062" duration="1376000" />
       <workItem from="1637646984470" duration="1444000" />
+      <workItem from="1637679365672" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Updates and first push">
       <created>1628390236615</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637644884178</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated repo name from docker host to ghcr.io host">
+      <created>1637679710993</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637679710993</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
     <MESSAGE value="Updated docker build files" />
     <MESSAGE value="Last commit for night continue work in progress..." />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Updated repo name from docker host to ghcr.io host" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated repo name from docker host to ghcr.io host" />
   </component>
 </project>
