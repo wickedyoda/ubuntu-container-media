@@ -1,8 +1,5 @@
 # docker-ubuntu-vnc-desktop
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/tyates2020/ubuntu-container.svg)](https://hub.docker.com/repository/docker/tyates2020/ubuntu-container)
-[![Docker Stars](https://img.shields.io/docker/stars/tyates2020/ubuntu-container.svg)](https://hub.docker.com/repository/docker/tyates2020/ubuntu-container)
-
 origional credit goes to https://github.com/fcwu/docker-ubuntu-vnc-desktop, I am expanding his project for my own personal purposes.
 
 docker-ubuntu-vnc-desktop is a Docker image to provide web VNC interface to access Ubuntu LXDE/LxQT desktop environment.

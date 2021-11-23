@@ -11,7 +11,7 @@ services:
           hostname: ubuntu-container
           environment:
                TZ: "America/New_York"
-          image: "tyates2020/ubuntu-container"
+          image: "ghcr.io/wickedyoda/ubuntu-container"
           restart: "always"
           ports:
             - 6080:80
