@@ -10,7 +10,7 @@ services:
           container_name: ubuntu-container
           hostname: ubuntu-container
           environment:
-               TZ: "America/New_York"
+               TZ: "America/Chicago"
           image: "ghcr.io/wickedyoda/ubuntu-container-media"
           restart: "always"
           ports:
