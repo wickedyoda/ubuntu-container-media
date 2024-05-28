@@ -1,21 +1,16 @@
 version: "3.8"
-
-#volumes: // example
-     #pacheconfig:
-       #name: apacheconfigs-files
-
-
 services:
-     ubuntu-container:
-          container_name: ubuntu-container
-          hostname: ubuntu-container
-          environment:
-               TZ: "America/Chicago"
-          image: "ghcr.io/wickedyoda/ubuntu-container-media"
-          restart: "always"
-          ports:
-            - 6080:80
-            - 5901:5900
-          volumes:
-            - $HOME/ubuntudata:/root:rw
-            
+           ubuntu-container:
+                         container_name: ubuntu-container
+                         hostname: ubuntu-container
+                         environment:
+                                    TZ: "America/Chicago"
+                         image: "ghcr.io/wickedyoda/ubuntu-container-media"
+                         restart: "always"
+                         ports:
+                              - 6080:80
+                              - 5901:5900
+                         volumes:
+                              - $HOME/ubuntudata:/root:rw
+                         networks:
+                              - my-network
