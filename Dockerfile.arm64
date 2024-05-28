@@ -9,6 +9,8 @@ FROM ubuntu:20.04 as arm64
 RUN apt update && apt install -y qemu-user-static
 FROM arm64v8/ubuntu:20.04 as system
 COPY --from=arm64 /usr/bin/qemu-aarch64-static /usr/bin/
+RUN apt-get update \
+    && apt-get install -y python3-pip
 
 
 
