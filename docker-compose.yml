@@ -13,4 +13,4 @@ services:
                          volumes:
                               - $HOME/ubuntudata:/root:rw
                          networks:
-                              - my-network
+                                - Bridge
